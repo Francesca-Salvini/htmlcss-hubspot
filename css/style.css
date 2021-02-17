@@ -158,7 +158,74 @@ h1 {
     font-size: 35px;
 }
 
-
-
 /*fine jumbotron*/
 /*FINE HEADER*/
+
+/*MAIN*/
+
+/*prima sezione */
+.grey_section {
+    background-color: #f4f9fd;
+    height: 1500px;
+}
+
+/*sottosezione 1*/
+.powerful {
+    /*TEST*/
+    height: 350px;
+    background-color: tomato;
+    
+}
+/* fine sottosezione 1*/
+
+/*sottosezione 2*/
+.freehubspot {
+    /*TEST*/
+    height: 350px;
+    background-color: violet;
+    margin: 30px 0;
+}
+
+.small_col {
+    width: 30%;
+    float: left;
+    /*TEST*/
+    height: 350px;
+    background-color: coral;
+}
+
+.big_col {
+    width: 67%;
+    float: right;
+    /*TEST*/
+    height: 350px;
+    background-color: darkcyan;
+}
+/*fine sottosezione 2*/
+
+/*sottosezione 3*/
+.three_col {
+    /*TEST*/
+    height: 600px;
+    background-color: yellow;
+
+}
+
+.column {
+    width: 30%;
+    float: left;
+    /*TEST*/
+    background-color: brown;
+    height: 600px;
+    
+}
+
+.column.middle {
+    margin: 0 5%;
+}
+
+/*fine sottosezione 3*/
+
+/*fine prima sezione*/
+
+/*FINE MAIN*/
