@@ -12,6 +12,10 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+img {
+    width: 100%;
+}
 .clearfix::after {
     content: "";
     display: table;
@@ -20,7 +24,7 @@ body {
 
 i {
     font-size: 12px;
-    margin: 0 2px;
+    margin: 0 5px;
 }
 
 a {
@@ -46,10 +50,13 @@ button {
 /*HEADER*/
 .container {
     height: 70px;
+  
+}
+
+.container.primo_nav {
     background-color: hsl(207deg 69% 97%);
     border-bottom: 1px solid hsl(207deg 28% 28%);
 }
-
 .wrap {
     width: 70%;
     margin: 0 auto;
@@ -72,7 +79,7 @@ button {
 .menu li a {
     text-decoration: none;
     color: hsl(207deg 28% 28%);
-    margin: 0 10px;
+    margin-right:  10px;
 }
 
 .border_right {
@@ -95,4 +102,15 @@ button {
     padding: 7px;
     
 }
+
+/*Secondo Nav*/
+
+.logo img {
+    width: 80px;
+}
+
+.logo {
+    line-height: 70px;
+}
+/*Fine secondo nav*/
 /*FINE HEADER*/
