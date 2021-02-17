@@ -36,8 +36,21 @@ button {
     border: 1px solid hsl(11deg 99% 67%);
     background-color: hsl(11deg 99% 67%);
     border-radius: 3px;
-    padding: 8px;
+    padding: 15px 20px;
     border: 0;
+}
+
+.text {
+    color: hsl(207deg 28% 28%) ;
+    font-size: 12px;
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+    
 }
 
 /*FINE COMMON*/
@@ -57,11 +70,7 @@ button {
     background-color: hsl(207deg 69% 97%);
     border-bottom: 1px solid hsl(207deg 28% 28%);
 }
-.wrap {
-    width: 70%;
-    margin: 0 auto;
-    
-}
+
 
 .col {
     width: 50%;
@@ -88,6 +97,10 @@ button {
 
 .menu.right {
     text-align: right;
+}
+
+.menu_button {
+    padding: 8px ;
 }
 
 .menu.right li  {
@@ -132,9 +145,20 @@ button {
     border-bottom: 2px solid hsl(207deg 28% 28%);
     position: absolute;
     bottom: 0px;
-    
-    
-   
 }
+
+.jumbotron_text {
+    margin-left: 0;
+    width: 40%;
+    padding-top: 50px;
+}
+
+h1 {
+    color: hsl(207deg 28% 28%) ;
+    font-size: 35px;
+}
+
+
+
 /*fine jumbotron*/
 /*FINE HEADER*/
