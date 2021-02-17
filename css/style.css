@@ -162,9 +162,14 @@ button {
 }
 
 h1 {
-    color: hsl(207deg 28% 28%) ;
+    
     font-size: 35px;
 }
+
+h1, h2, h3 {
+    color: hsl(207deg 28% 28%) ;
+}
+
 
 /*fine jumbotron*/
 /*FINE HEADER*/
@@ -209,7 +214,7 @@ h1 {
 
 /*sottosezione 2*/
 .freehubspot {
-    box-shadow: 0px 0px 4px 0.1px  hsl(207deg 28% 28%);
+    box-shadow: 0px 0px 4px 0.1px lightgray;
     border-radius: 5px;
     height: 300px;
     background-color: white;
@@ -229,7 +234,10 @@ h1 {
     float: right;
     /*TEST*/
     height: 300px;
-    background-color: darkcyan;
+}
+
+.big_col_text {
+    margin-top: 10%;
 }
 
 .small_illustration img{
@@ -244,11 +252,22 @@ h1 {
 
    .button_col {
        position: absolute;
-       top: 60%;
+       top: 62%;
        left: 53%;
        transform: translate(-50%, -50%);
    }
    
+   h3 {
+       display: inline-block;
+   }
+
+   hr {
+       display: inline-block;
+       width: 50% ;
+       color: hsl(207deg 28% 28%) ;
+       margin: 4px 40px;
+   }
+
 
 /*fine sottosezione 2*/
 
@@ -271,6 +290,10 @@ h1 {
 
 .column.middle {
     margin: 0 5%;
+}
+
+.check {
+    color: #fe775a;
 }
 
 /*fine sottosezione 3*/
