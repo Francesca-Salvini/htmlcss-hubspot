@@ -6,3 +6,93 @@
 }
 /*FINE RESET*/
 
+
+/*COMMON*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+i {
+    font-size: 12px;
+    margin: 0 2px;
+}
+
+a {
+    font-size: 13px;
+}
+
+button {
+    color: white;
+    border: 1px solid hsl(11deg 99% 67%);
+    background-color: hsl(11deg 99% 67%);
+    border-radius: 3px;
+    padding: 8px;
+    border: 0;
+}
+
+/*FINE COMMON*/
+
+/*FONT AWESOME*/
+.search  {
+    color: hsl(188deg 87% 40%);
+    margin-right: 10px;
+}
+/*HEADER*/
+.container {
+    height: 70px;
+    background-color: hsl(207deg 69% 97%);
+    border-bottom: 1px solid hsl(207deg 28% 28%);
+}
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.col {
+    width: 50%;
+    float: left;
+}
+
+/*Menu*/
+.menu {
+    list-style-type: none;
+    padding: 20px 0;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    text-decoration: none;
+    color: hsl(207deg 28% 28%);
+    margin: 0 10px;
+}
+
+.border_right {
+    border-right: 1px solid hsl(207deg 28% 28%);
+}
+
+.menu.right {
+    text-align: right;
+}
+
+.menu.right li  {
+    margin-left:  10px;
+}
+/*Fine Menu*/
+
+.login_button {
+    border: 1px solid hsl(11deg 99% 67%) ;
+    color: hsl(11deg 99% 67%);
+    background-color: white;
+    padding: 7px;
+    
+}
+/*FINE HEADER*/
