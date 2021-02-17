@@ -91,7 +91,7 @@ button {
 }
 
 .menu.right li  {
-    margin-left:  10px;
+    margin-left:  8px;
 }
 /*Fine Menu*/
 
@@ -113,4 +113,28 @@ button {
     line-height: 70px;
 }
 /*Fine secondo nav*/
+
+/*jumbotron*/
+.jumbotron {
+    background-color: #fff2ee;
+    height: 550px;
+    background-image: url(../img/jumbotron.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
+    position: relative;
+}
+
+.container.verde_acqua {
+    width: 100%;
+    background-color: #afebe4;
+    border-top: 2px solid hsl(207deg 28% 28%);
+    border-bottom: 2px solid hsl(207deg 28% 28%);
+    position: absolute;
+    bottom: 0px;
+    
+    
+   
+}
+/*fine jumbotron*/
 /*FINE HEADER*/
