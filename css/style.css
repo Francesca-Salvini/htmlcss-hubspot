@@ -420,4 +420,36 @@ h4 {
 }
 /*fine seconda sezione*/
 
+/*terza sezione*/
+.wrap.third_section {
+    
+    height: 550px;
+}
+
+.wrap.third_section .small_col {
+    width: 20%;
+    height: fit-content;
+   margin-top: 60px;
+   margin-left: 80px;
+   background-color: #f4f9fd;
+   
+    
+}
+
+.wrap.third_section .big_col {
+    width: 50%;
+    
+    margin-top: 60px;
+    margin-right: 80px;
+    
+   
+}
+
+.third_section_img {
+    width: 90px;
+    vertical-align: middle;
+}
+
+
+/*fine terza sezione */
 /*FINE MAIN*/
