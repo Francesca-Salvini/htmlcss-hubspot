@@ -423,7 +423,7 @@ h4 {
 /*terza sezione*/
 .wrap.third_section {
     
-    height: 550px;
+   height:200px ; 
 }
 
 .wrap.third_section .small_col {
@@ -450,6 +450,47 @@ h4 {
     vertical-align: middle;
 }
 
+.wrap.fourth_section {
+    
+    height: 300px;
+}
 
+.two_col {
+    
+    height: 300px;
+    
+}
+
+.col_one {
+    width: 40%;
+    float: left;
+    /*TEST*/
+  
+    height: 300px;
+    padding-top: 30px;
+}
+
+.col_two {
+    width: 50%;
+    float: right;
+    /*TEST*/
+   
+    height: 300px;
+    
+}
+
+.col_two img {
+    width: 200px;
+    float: right;
+    padding-top: 20px;
+    margin-right: 80px;
+}
+
+.text_smaller {
+    font-size: 10px;
+   color: hsl(207deg 28% 28%);
+   padding-top: 20px;
+
+}
 /*fine terza sezione */
 /*FINE MAIN*/
