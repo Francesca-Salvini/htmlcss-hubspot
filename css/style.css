@@ -280,21 +280,18 @@ h4 {
 /*fine sottosezione 2*/
 
 /*sottosezione 3*/
-.three_col {
-    /*TEST*/
-    height: 600px;
-    background-color: yellow;
 
-}
 
 .column {
+    box-shadow: 0px 0px 4px 0.1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+    height: 600px;
     margin-top: 0;
     width: 32%;
     float: left;
     position: relative;
-    /*TEST*/
-    background-color: brown;
-    height: 600px;
+   
     
 }
 
