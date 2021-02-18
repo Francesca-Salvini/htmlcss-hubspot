@@ -169,11 +169,13 @@ h1 {
     font-size: 35px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: hsl(207deg 28% 28%) ;
 }
 
-
+h4 {
+    padding-top: 30px;
+}
 /*fine jumbotron*/
 /*FINE HEADER*/
 
@@ -221,17 +223,22 @@ h1, h2, h3 {
     border-radius: 5px;
     background-color: white;
     margin: 30px 0;
+    height: 350px;
 }
 
 .small_col {
-    width: 30%;
+    width: 37%;
     float: left;
+    height: 350px;
     position: relative;
+
+    /*TEST*/
+    background-color: white
    
 }
 
 .big_col {
-    width: 67%;
+    width: 63%;
     float: right;
     
 }
@@ -240,21 +247,22 @@ h1, h2, h3 {
     margin-top: 13%;
 }
 
-.small_illustration img{
-    height: 90px;
-   }
+
 
    .small_illustration {
-       line-height: 350px;
-       margin-left: 15px;
+       
+       height: 150px;
+       width: 150px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
 
    }
 
    .button_col {
-       position: absolute;
-       top: 62%;
-       left: 53%;
-       transform: translate(-50%, -50%);
+       margin: 0 10px;
+   }
    }
    
    h3 {
@@ -281,8 +289,9 @@ h1, h2, h3 {
 
 .column {
     margin-top: 0;
-    width: 30%;
-    float: right;
+    width: 32%;
+    float: left;
+    position: relative;
     /*TEST*/
     background-color: brown;
     height: 600px;
@@ -290,11 +299,36 @@ h1, h2, h3 {
 }
 
 .column.middle {
-    margin: 0 5%;
+    margin: 0 2%;
 }
 
+.col_illustration {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
 
+.col_illustration img {
+    height: 100px;
+}
 
+.col_illustration h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.divider {
+    width: 150px;
+    padding-top: 20px;
+    border-bottom: 1px solid hsl(207deg 28% 28%) ;
+
+}
+
+.col_illustration .menu {
+    text-align: left;
+}
 /*fine sottosezione 3*/
 
 /*fine prima sezione*/
