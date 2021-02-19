@@ -494,3 +494,48 @@ h4 {
 }
 /*fine terza sezione */
 /*FINE MAIN*/
+
+/*FOOTER*/
+footer {
+    background-color: #33495b;
+    height: 500px;
+}
+
+footer .wrap {
+    background-color: springgreen;
+    height: 500px;
+}
+
+.four_col {
+    background-color: yellow;
+    height: 500px;
+
+}
+
+.list_title {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.col_footer {
+    background-color: red;
+    height: 250px;
+    float: left;
+    width: 20%;
+    margin: 0 2.5%;
+}
+
+.col_footer .menu li {
+    display: block;
+    padding: 4px 0;
+}
+
+.col_footer .menu li:nth-child(2){
+    padding-top: 13px;
+}
+
+.col_footer .menu li a {
+    color: white;
+}
+/*FINE FOOTER*/
