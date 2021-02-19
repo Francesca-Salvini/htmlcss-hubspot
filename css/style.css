@@ -557,4 +557,47 @@ footer .wrap {
     color: white;
     
 }
+
+footer .wrap hr {
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.privacy_policy {
+  
+    margin-top: 40px;
+}
+
+.logo_footer {
+    width: 46%;
+    float: left;
+    margin-right: 2%;
+    
+}
+
+.logo_footer img {
+    width: 90px;
+}
+.logo_footer .text {
+    color: white;
+    margin-top: 0;
+}
+
+.privacy_stuff {
+    width: 46%;
+    float: right;
+    margin-left: 2%;
+    
+}
+
+.privacy_stuff .menu {
+    text-align: right;
+    
+}
+
+.privacy_stuff .menu li a {
+    color: white;
+}
+
 /*FINE FOOTER*/
