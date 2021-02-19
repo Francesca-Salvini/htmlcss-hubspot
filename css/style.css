@@ -520,10 +520,10 @@ footer .wrap {
 
 .col_footer {
     background-color: red;
-    height: 250px;
+    height: 300px;
     float: left;
-    width: 20%;
-    margin: 0 2.5%;
+    width: 23%;
+    margin: 0 1%;
 }
 
 .col_footer .menu li {
@@ -536,6 +536,17 @@ footer .wrap {
 }
 
 .col_footer .menu li a {
+    color: white;
+}
+
+.grey_button {
+    background-color: #dadee0;
+    color: #33495b;
+    padding: 10px 10px;
+    border: 1px solid #33495b;
+}
+
+.icons {
     color: white;
 }
 /*FINE FOOTER*/
