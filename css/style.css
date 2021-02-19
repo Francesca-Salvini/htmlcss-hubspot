@@ -502,13 +502,13 @@ footer {
 }
 
 footer .wrap {
-    background-color: springgreen;
+    
     height: 500px;
 }
 
 .four_col {
-    background-color: yellow;
-    height: 500px;
+    
+    height: fit-content;
 
 }
 
@@ -519,7 +519,7 @@ footer .wrap {
 }
 
 .col_footer {
-    background-color: red;
+    
     height: 300px;
     float: left;
     width: 23%;
@@ -548,5 +548,13 @@ footer .wrap {
 
 .icons {
     color: white;
+}
+
+.languages .menu {
+    text-align: center;
+}
+.languages .menu li a {
+    color: white;
+    
 }
 /*FINE FOOTER*/
