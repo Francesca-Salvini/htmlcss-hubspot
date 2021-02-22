@@ -6,7 +6,6 @@
 }
 /*FINE RESET*/
 
-
 /*COMMON*/
 
 body {
@@ -50,7 +49,6 @@ button {
 .wrap {
     width: 70%;
     margin: 0 auto;
-    
 }
 
 .second_title {
@@ -58,7 +56,6 @@ button {
     text-align: center;
     font-size: 22px;
     padding-top: 50px;
-
 }
 
 .check {
@@ -74,14 +71,12 @@ button {
 /*HEADER*/
 .container {
     height: 70px;
-  
 }
 
 .container.primo_nav {
     background-color: hsl(207deg 69% 97%);
     border-bottom: 1px solid hsl(207deg 28% 28%);
 }
-
 
 .col {
     width: 50%;
@@ -124,7 +119,6 @@ button {
     color: hsl(11deg 99% 67%);
     background-color: white;
     padding: 7px;
-    
 }
 
 /*Secondo Nav*/
@@ -185,25 +179,17 @@ h4 {
 .grey_section {
     background-color: #f4f9fd;
     padding-bottom: 50px;
-    
-    
 }
 
 /*sottosezione 1*/
 .subsection {
     text-align: center;
-  
-
-    
 }
 
 .illustration  {
     width: auto;
     height: 150px;
     margin: 0 auto;
-    
-    
-  
 }
 
 .illustration img {
@@ -233,25 +219,18 @@ h4 {
     float: left;
     height: 350px;
     position: relative;
-
-    /*TEST*/
-    background-color: white
-   
 }
 
 .big_col {
     width: 63%;
     float: right;
-    
 }
 
 .big_col_text {
     margin-top: 13%;
 }
 
-
-
-   .small_illustration {
+.small_illustration {
        
        height: 150px;
        width: 150px;
@@ -259,31 +238,26 @@ h4 {
        top: 50%;
        left: 50%;
        transform: translate(-50%, -50%);
+}
 
-   }
-
-   .button_col {
-       margin: 0 10px;
-   }
+.button_col {
+    margin: 0 10px;
+}
    
-   
-   h3 {
-       display: inline-block;
-   }
+h3 {
+   display: inline-block;
+}
 
-   hr {
-       display: inline-block;
-       width: 50% ;
-       color: hsl(207deg 28% 28%) ;
-       margin: 4px 40px;
-   }
-
+hr {
+    display: inline-block;
+    width: 50% ;
+    color: hsl(207deg 28% 28%) ;
+    margin: 4px 40px;
+}
 
 /*fine sottosezione 2*/
 
 /*sottosezione 3*/
-
-
 
 .column {
     box-shadow: 0px 0px 4px 0.1px lightgray;
@@ -294,15 +268,10 @@ h4 {
     width: 32%;
     float: left;
     position: relative;
-    
-   
-    
 }
 
 .column.middle {
     margin: 0 2%;
-    
-    
 }
 
 .col_illustration {
@@ -326,7 +295,6 @@ h4 {
     width: 150px;
     padding-top: 20px;
     border-bottom: 1px solid hsl(207deg 28% 28%) ;
-
 }
 
 .col_illustration .menu {
@@ -343,12 +311,6 @@ h4 {
     background-image: linear-gradient(to right, #01aab7, #00b9a8);
 }
 
-.gradient .wrap {
-    /*TEST*/
-    
-    height: 500px;
-}
-
 .gradient h2, .gradient p {
     color: white;
     
@@ -358,15 +320,9 @@ h4 {
     font-size: 26px;
 }
 
-.table {
-    height: 300px;
-    
-}
-
 .cella {
     height: 150px;
     width: 221px;
-    
     float: left;
     position: relative;
     border-right: 1px solid white;
@@ -380,8 +336,8 @@ h4 {
 .content img {
      width: 110px;
      padding-top: 6px;
-     
 }
+
 .content {
     text-align: center;
     position: absolute;
@@ -394,24 +350,7 @@ h4 {
     font-size: 14px;
 }
 
-.content.first_pic img{
-    height: 35px;
-}
-
-.content.second_pic img {
-    height: 35px;
-    padding-top: 0px;
-}
-
-.content.fifth_pic img {
-    height: 35px;
-}
-
-.content.seventh_pic img {
-    height: 35px;
-}
-
-.content.eighth_pic img {
+.content.height_pic img{
     height: 35px;
 }
 
@@ -432,17 +371,12 @@ h4 {
    margin-top: 60px;
    margin-left: 80px;
    background-color: #f4f9fd;
-   
-    
 }
 
 .wrap.third_section .big_col {
     width: 50%;
-    
     margin-top: 60px;
     margin-right: 80px;
-    
-   
 }
 
 .third_section_img {
@@ -450,33 +384,15 @@ h4 {
     vertical-align: middle;
 }
 
-.wrap.fourth_section {
-    
-    height: 300px;
-}
-
-.two_col {
-    
-    height: 300px;
-    
-}
-
 .col_one {
     width: 40%;
     float: left;
-    /*TEST*/
-  
-    height: 300px;
     padding-top: 30px;
 }
 
 .col_two {
     width: 50%;
     float: right;
-    /*TEST*/
-   
-    height: 300px;
-    
 }
 
 .col_two img {
@@ -487,7 +403,7 @@ h4 {
 }
 
 .text_smaller {
-    font-size: 10px;
+   font-size: 10px;
    color: hsl(207deg 28% 28%);
    padding-top: 20px;
 
@@ -498,29 +414,14 @@ h4 {
 /*FOOTER*/
 footer {
     background-color: #33495b;
-    height: 500px;
-}
-
-footer .wrap {
-    
-    height: 500px;
-}
-
-.four_col {
-    
-    height: fit-content;
-
 }
 
 .list_title {
     font-size: 15px;
     font-weight: bold;
-    
 }
 
 .col_footer {
-    
-    height: 300px;
     float: left;
     width: 23%;
     margin: 0 1%;
@@ -555,7 +456,6 @@ footer .wrap {
 }
 .languages .menu li a {
     color: white;
-    
 }
 
 footer .wrap hr {
@@ -565,7 +465,6 @@ footer .wrap hr {
 }
 
 .privacy_policy {
-  
     margin-top: 40px;
 }
 
@@ -573,7 +472,6 @@ footer .wrap hr {
     width: 46%;
     float: left;
     margin-right: 2%;
-    
 }
 
 .logo_footer img {
@@ -588,12 +486,10 @@ footer .wrap hr {
     width: 46%;
     float: right;
     margin-left: 2%;
-    
 }
 
 .privacy_stuff .menu {
     text-align: right;
-    
 }
 
 .privacy_stuff .menu li a {
